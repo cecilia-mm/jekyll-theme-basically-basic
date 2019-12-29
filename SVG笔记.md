@@ -5,7 +5,7 @@
 ---
 
  
-title: 分类：SVG笔记
+title: SVG笔记
 
  
 layout: category
