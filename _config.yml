@@ -17,7 +17,7 @@ lang: zh-CN
 title: 黄甘津的个人网站
 email:
 description: " 黄甘津的个人网站"
-baseurl: "/jekyll-theme-basically-basic" # the optional subpath of your site, e.g. "/blog"
+baseurl: "cecilia--m" # the optional subpath of your site, e.g. "/blog"
 url: "https://cecilia--m.gitee.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name:"黄甘津""
