@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% include page-intro.html %}
 <style>
 .intro-title {
@@ -10,25 +11,30 @@ layout: default
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
 <div>{{ content }}</div>
+
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
     <div>{{ content }}</div>
-
-    <div>
-      <header class="section-title">
-        <h2>{{ site.data.theme.t.posts | default: 'Posts' }}{% if paginator.page > 1 %}{{ site.data.theme.t.page | default: 'Page' | prepend: ' - ' | append: ' ' }}{{ paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{% endif %}</h2>
-      </header>
-      <div class="entries-{{ page.entries_layout | default: 'list' }}">
-        {% if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate %}
-          {% comment %}
-            Add paginator.posts loop if jekyll-paginate plugin is enabled
-            and page.paginate == true
-          {% endcomment %}
-          {% include posts-paginated.html %}
-        {% else %}
-          {% include posts-all.html %}
-        {% endif %}
-      </div>
-    </div>
-  </div>
-</main>
+<main id="main" class="page-content" aria-label="Content">
+ 15	 19	  <div class="index inner">
+ 16	 20	    <div>{{ content }}</div>
+ 17	 21	
+ 18	 22	    <div>
+ 19	 23	      <header class="section-title">
+ 20	 24	        <h2>{{ site.data.theme.t.posts | default: 'Posts' }}{% if paginator.page > 1 %}{{ site.data.theme.t.page | default: 'Page' | prepend: ' - ' | append: ' ' }}{{ paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{% endif %}</h2>
+ 21	 25	      </header>
+ 22	 26	      <div class="entries-{{ page.entries_layout | default: 'list' }}">
+ 23	 27	        {% if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate %}
+ 24	 28	          {% comment %}
+ 25	 29	            Add paginator.posts loop if jekyll-paginate plugin is enabled
+ 26	 30	            and page.paginate == true
+ 27	 31	          {% endcomment %}
+ 28	 32	          {% include posts-paginated.html %}
+ 29	 33	        {% else %}
+ 30	 34	          {% include posts-all.html %}
+ 31	 35	        {% endif %}
+ 32	 36	      </div>
+ 33	 37	    </div>
+ 34	 38	  </div>
+ 35	 39	</main>
+暂无评论
