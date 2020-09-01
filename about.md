@@ -1,7 +1,6 @@
 ---
 title:"关于我"
 layout:about
-image:assets/images/logo_head portrait.jpg
 ---
  	
 ## 个人基本信息
