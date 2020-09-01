@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: zh-CN
-title: 黄甘津的个人网站
+title: cecilia-mm's Personal Website
 email:
-description: " 黄甘津的个人网站"
-baseurl: "cecilia--m" # the optional subpath of your site, e.g. "/blog"
+description: "cecilia-mm's Personal Website"
+baseurl: "/jekyll-theme-basically-basic" # the optional subpath of your site, e.g. "/blog"
 url: "https://cecilia--m.gitee.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name:"黄甘津""
+  name: "cecilia-mm"
   twitter:
   picture:
 twitter_username:
