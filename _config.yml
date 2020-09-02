@@ -17,7 +17,7 @@ lang: zh-CN
 title: 黄甘津的个人Jekyll网站
 email: 412713721@qq.com
 description: "cecilia-mm"
-baseurl: "/jekyll-theme-basically-basic" # the optional subpath of your site, e.g. "/blog"
+baseurl: "/cecilia--m" # the optional subpath of your site, e.g. "/blog"
 url: " http://cecilia--m.gitee.io/jekyll-theme-basically-basic" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: "cecilia-mm"
