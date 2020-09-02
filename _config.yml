@@ -14,20 +14,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: zh-CN
-title: 黄甘津的个人Jekyll网站
-email: 412713721@qq.com
-description: "cecilia-mm"
-baseurl: "http://cecilia--m.gitee.io/" # the optional subpath of your site, e.g. "/blog"
-url: " http://cecilia--m.gitee.io/jekyll-theme-basically-basic" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title: 杨阳的个人Jekyll网站
+email: silvia921326130@163.com
+description: "yangyang"
+baseurl: "/silvia_921326130" # the optional subpath of your site, e.g. "/blog"
+url: "https://silvia_921326130.gitee.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name: "cecilia-mm"
+  name: "yangyang"
   twitter:
   picture:
 twitter_username:
-github_username: cecilia-mm
+github_username: YangyangSilvia
 logo: "/assets/images/logo_head portrait.jpg" # path of site logo, e.g. "/assets/images/logo.png"
 search: true # true, false (default)
- 30	search_full_content: true # true, false (default)
+search_full_content: true # true, false (default)
 search_provider: # lunr (default), algolia
 algolia:
   application_id: # YOUR_APPLICATION_ID
