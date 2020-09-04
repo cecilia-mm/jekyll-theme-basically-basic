@@ -1,0 +1,65 @@
+---
+layout: page
+title: 你知道如何设计出闪闪发亮的背景图吗？
+excerpt_separator: "<!--more-->"
+categories:
+     - 平面设计
+---
+
+<!--more-->
+
+### *手把手教你制作漂亮的渐变背景！*
+####  前言：想要制作一个合格的页面，好看的页面背景是非常加分的，精美的背景图片不仅可以吸引用户，也可以使得用户对网页的体验感大大提升。
+可如果在这个时候，你的背景页面都还只是默认的无颜色或者单调的红黄蓝这些，***别着急！现在，我就偷偷告诉你制作美美的渐变背景的秘密！***  
+- 示例如下：
+
+```
+<style>
+#grad1 {
+    height: 200px;
+	background-color: red; /* 浏览器不支持时显示 */
+    background-image: linear-gradient(#e66465, #9198e5);
+}
+</style>
+```
+- 现在，到了展示的时候了！！
+
+<head>
+<style>
+#grad1 {
+    height: 200px;
+	background-color: red; /* 浏览器不支持时显示 */
+    background-image: linear-gradient(#e66465, #9198e5);
+}
+</style>
+</head>
+
+明显的，这是从上到下的线性渐变，我们就可以利用background-image来实现，至于后面的linear-gradient自然是线性渐变的意思了，如果你不想从上至下变化，还可以在代表值的最前面规定好方向，以此实现换方向渐变：
+
+- 示例如下（从左至右）；
+
+```
+background-image: linear-gradient(to right, red , yellow);
+```
+
+如果，你还对觉得只有两个颜色的设定不满意，也可自己选定添加颜色，变成多个颜色节点：
+
+```
+#grad {
+  background-image: linear-gradient(red, yellow, green);
+}
+```
+
+***
+
+- 事实上，除了线性渐变，还有一种由中心向外发散变化颜色的渐变效果，我们称其为径向渐变：
+   - 其中示例如下：
+
+```
+#grad {
+  background-image: radial-gradient(red, yellow, green);
+}
+```
+
+**聪明的小可爱们大概也看出来了吧，这种渐变其实也就是将原来线性渐变的linear变成了radial，而已啦！**  
+*就是这么简单哦，学会了吗？赶紧去试一下吧！*
